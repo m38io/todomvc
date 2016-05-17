@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.box_check_update = true
 
   # Configure host-only network
-  config.vm.network 'private_network', ip: '192.168.70.1'
+  config.vm.network 'private_network', ip: '192.168.70.4'
   config.vm.network "forwarded_port", guest: 80, host: 8880
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
@@ -20,14 +20,17 @@ Vagrant.configure(2) do |config|
   if ENV['VAGRANT_SYNC_ENABLED']
     sync_disabled = !ENV['VAGRANT_SYNC_ENABLED']
   end
-  config.vm.synced_folder './', '/home/vagrant/seed.node', disabled: sync_disabled
+  config.vm.synced_folder './', '/home/vagrant/todomvc', disabled: sync_disabled
 
   # Configure the virtual machine to use 2GB of RAM
   config.vm.provider :virtualbox do |vb|
+    vb.name = "todomvc"
     vb.customize [
                      'modifyvm', :id,
                      '--memory', '1024',
                      '--cpus', '1'
                  ]
   end
+
+  config.vm.provision "shell", path: "provision/system.sh"
 end
