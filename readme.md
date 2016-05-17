@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc)
+
 # React TodoMVC Example
 
 > React is a JavaScript library for creating user interfaces. Its core principles are declarative code, efficiency, and flexibility. Simply specify what your component looks like and React will keep it up-to-date when the underlying data changes.
@@ -19,7 +21,7 @@
 
 ### Steps for running the application
 
-1. Fork this Repository on GitHub.
+1. Fork this Repository
 
 2. Open a Terminal:
 
