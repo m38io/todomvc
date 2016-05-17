@@ -13,4 +13,6 @@ sudo apt-get update
 sudo apt-get -y install linux-image-extra-$(uname -r)
 sudo apt-get -y install docker-engine
 sudo service docker start
-sudo docker run hello-world
+sudo groupadd docker
+sudo usermod -aG docker vagrant
+docker run hello-world || exit 1
