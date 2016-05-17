@@ -9,7 +9,7 @@
 
 ### Dependencies
 
-* Vagrant or other Docker/Docker compose runtime environment
+* [Vagrant](https://www.vagrantup.com/downloads.html) or other Docker/Docker compose runtime environment.
 
     Note: The Vagrant box provided has a pre-configured
     Docker/Docker compose environment and is the supported model. This is to ensure a consistent development
@@ -17,11 +17,22 @@
     application should be able to be run natively on docker/docker-compose but be aware that you are on your
     own if you experience problems!`
 
-vagrant up
-vagrant ssh
-cd todomvc
-docker build -t todomvc .
-docke run
+### Steps for running the application
+
+1. Fork this Repository on GitHub.
+
+2. Open a Terminal:
+
+        git clone git@github.com:<your-github-username>/todomvc.git
+        cd todomvc
+        vagrant up
+        vagrant ssh
+        cd todomvc
+        docker build -t todomvc .
+        docker run -ti --rm -p 8080:80 todomvc
+
+3. Open your browser to http://localhost:8888 or http://192.168.70.4:8080
+
 
 
 ## Learning React
