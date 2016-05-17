@@ -31,7 +31,7 @@
         docker build -t todomvc .
         docker run -ti --rm -p 8080:80 todomvc
 
-3. Open your browser to http://localhost:8888 or http://192.168.70.4:8080
+3. Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
 
 
