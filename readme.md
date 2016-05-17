@@ -5,6 +5,25 @@
 > _[React - facebook.github.io/react](http://facebook.github.io/react)_
 
 
+## Running the App
+
+### Dependencies
+
+* Vagrant or other Docker/Docker compose runtime environment
+
+    Note: The Vagrant box provided has a pre-configured
+    Docker/Docker compose environment and is the supported model. This is to ensure a consistent development
+    environment by keeping the host OS and docker versions identical across all contributors machines. The
+    application should be able to be run natively on docker/docker-compose but be aware that you are on your
+    own if you experience problems!`
+
+vagrant up
+vagrant ssh
+cd todomvc
+docker build -t todomvc .
+docke run
+
+
 ## Learning React
 
 The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
