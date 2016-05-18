@@ -29,9 +29,9 @@
         cd todomvc
         vagrant up
         vagrant ssh
-        cd todomvc
+        cd /vagrant
         docker build -t todomvc .
-        docker run -ti --rm -p 8080:80 todomvc
+        docker run -ti --rm -p 8080:8080 todomvc
 
 3. Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
