@@ -43,5 +43,7 @@ WORKDIR $APP_HOME_DIR
 # Include remainder of assets
 ADD . .
 
+EXPOSE 8080
+
 # Start the server
-ENTRYPOINT ["http-server", "-o", "--cors"]
+ENTRYPOINT ["node", "app"]
