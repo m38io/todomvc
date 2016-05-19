@@ -21,6 +21,8 @@ Vagrant.configure(2) do |config|
     sync_disabled = !ENV['VAGRANT_SYNC_ENABLED']
   end
 
+  config.vm.synced_folder './', '/home/vagrant', disabled: sync_disabled
+  
   # Configure the virtual machine to use 2GB of RAM
   config.vm.provider :virtualbox do |vb|
     vb.name = "todomvc"
