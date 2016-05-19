@@ -1,3 +1,15 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t m38io/todomvc .
+  - docker run -ti --rm -p 8080:8080 m38io/todomvc
+  - docker run todomvc /bin/sh -c "cd /usr/src/app; npm test"
+
+script: npm test
+
 language: node_js
 node_js:
   - "5"
