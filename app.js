@@ -12,10 +12,6 @@ var restify = require('restify');
     });
 
     server.pre(function (req, res, next) {
-
-        // if (req.url == '/') {
-        //     req.url = '/index.html'
-        // }
         return next();
     });
 
@@ -41,7 +37,7 @@ var restify = require('restify');
         origins: ['*']
     }));
 
-    // Serve static page
+    // Serve static site
     server.get(/\/?.*/, restify.serveStatic({
         directory: __dirname,
         default: 'index.html',
