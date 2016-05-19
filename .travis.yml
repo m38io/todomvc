@@ -5,7 +5,7 @@ services:
 
 before_install:
   - docker build -t m38io/todomvc .
-  - docker run m38io/todomvc /bin/sh -c "cd /usr/src/app; npm test"
+  - docker run --rm --entrypoint npm m38io/todomvc "test"
 
 script: npm test
 
