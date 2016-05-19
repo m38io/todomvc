@@ -11,12 +11,11 @@ var restify = require('restify');
         version: '1.0.0'
     });
 
-    // Ensure only JSON formatted requests are sent through
     server.pre(function (req, res, next) {
 
-        if (req.url == '/') {
-            req.url = '/index.html'
-        }
+        // if (req.url == '/') {
+        //     req.url = '/index.html'
+        // }
         return next();
     });
 
@@ -43,7 +42,9 @@ var restify = require('restify');
     }));
 
     // Serve static page
-    server.get(/\/*/, restify.serveStatic({
-        directory: './public',
-    }));
+    server.get(/\/?.*/, restify.serveStatic({
+        directory: __dirname,
+        default: 'index.html',
+        match: /^(.)*$/   // we should deny access to the application source
+     }));
 })();
