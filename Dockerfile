@@ -16,7 +16,7 @@ WORKDIR $APP_HOME_DIR
 
 # Install node modules outside of the application path so if shell-ing into the container is needed we don't clobber
 # the node modules directory with a volume mount
-ENV NODE_INSTALL_BASE_PATH /usr/src
+ENV NODE_INSTALL_BASE_PATH $APP_HOME_DIR
 ENV NODE_INSTALL_MODULE_PATH $NODE_INSTALL_BASE_PATH/node_modules
 RUN mkdir -p $NODE_INSTALL_MODULE_PATH
 
