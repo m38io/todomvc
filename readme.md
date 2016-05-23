@@ -50,4 +50,4 @@ TODO: Evgeny to finish
 
 # Working Apps!
 
-- [![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc) by [m38io](https://m38io.github.io)
+-  [https://github.com/m38io/todomvc](https://github.com/m38io/todomvc) by [m38io](https://m38io.github.io) [![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc)
