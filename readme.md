@@ -9,7 +9,7 @@ Your mission should you choose to accept it:
 3.  [Run the application locally](#running-locally)
 4.  [Set Up Travis CI] (#travis-ci)
 5.  [Set up a GitHub Page](https://help.github.com/categories/github-pages-basics/) for your repository
-6.  Add a link to your GitHub Page from step (5) to the [Working Apps!](#working-apps) section of this `readme.md`
+6.  Add a link to your passing Travis CI page and your GitHub Page from step (5) to the [Working Apps!](#working-apps) section of this `readme.md`
 7.  [Submit a Pull Request](https://help.github.com/articles/creating-a-pull-request/) to [m38io/todomvc](https://github.com/m38io/todomvc)
 
 
@@ -50,4 +50,4 @@ TODO: Evgeny to finish
 
 # Working Apps!
 
-- [m38io/todomvc](http://m38io.github.io/)
+- [![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc) by [m38io](https://m38io.github.io)
