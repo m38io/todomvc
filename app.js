@@ -16,7 +16,7 @@ var restify = require('restify');
     });
 
     // Configure server listening port
-    server.listen(8080, function () {
+    server.listen(8080, 'localhost', function () {
         console.log('%s listening at %s', server.name, server.url);
     });
 
