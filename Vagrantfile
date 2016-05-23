@@ -13,6 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 80, host: 8880
   config.vm.network "forwarded_port", guest: 8080, host: 8888
 
+  config.ssh.forward_agent = true
   # Share folder, disabled sync by default due to issues on windows with SMB
   # sharing. You can enable sync by setting the VAGRANT_SYNC_ENABLED env var
   # to true.
@@ -22,7 +23,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.synced_folder './', '/home/vagrant/app', disabled: sync_disabled
-  
+
   # Configure the virtual machine to use 2GB of RAM
   config.vm.provider :virtualbox do |vb|
     vb.name = "todomvc"
