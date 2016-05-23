@@ -7,8 +7,6 @@ before_install:
   - docker build -t m38io/todomvc .
   - docker run --rm --entrypoint npm m38io/todomvc "test"
 
-script: npm test
-
 notifications:
   email: false
 
