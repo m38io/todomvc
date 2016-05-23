@@ -61,6 +61,13 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
 1.  Log in to [Travis CI](https://travis-ci.org)
 2.  [Flick] (https://travis-ci.org/getting_started) on Build for the repo you created in step (2)
 3.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
+    - *IMPORTANT* You don't need to add all the Node versions shown in the example for your build. Just add a few of the latest ones.
+    - For extra credit, you can change the build to use Docker [Ruby Example](https://docs.travis-ci.com/user/docker/). This is fairly advanced, but the hint is that this will be the `before_install` entry
+        ```yaml
+        before_install:
+            - docker build -t m38io/todomvc .
+        ```
+    and that the `script` entry will be a `docker run` command 
     
 
 # Working Apps!
