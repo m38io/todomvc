@@ -7,14 +7,20 @@ Completing this project will introduce you to several skills and concepts that a
 Your mission should you choose to accept it:
 
 1.  Set up your [Development Environment](#development-environment)
-2.  [Fork](https://help.github.com/articles/fork-a-repo/) this repository
-3.  [Run the application locally](#running-locally)
-4.  [Set Up Travis CI] (#travis-ci)
-5.  [Set up a GitHub Page for your project](https://help.github.com/categories/github-pages-basics/) for your repository
-6.  Add a badge and a link to your passing Travis CI page and your GitHub Page from step (5) to the [Working Apps!](#working-apps) section of this `readme.md`
-    - [How to Add Travis CI Badges to a README](https://docs.travis-ci.com/user/status-images/)
 
-7.  [Submit a Pull Request](https://help.github.com/articles/creating-a-pull-request/) to [m38io/todomvc](https://github.com/m38io/todomvc)
+2.  [Fork](https://help.github.com/articles/fork-a-repo/) this repository
+
+3.  [Run the application locally](#running-locally)
+
+4.  [Set Up a Build Using Travis CI] (#travis-ci)
+
+5.  [Set up a GitHub Page for your project](https://help.github.com/categories/github-pages-basics/) for your repository
+
+6.  Add a badge and a link to your passing Travis CI page from step (4) and your GitHub Page from step (5) to the [Working Apps!](#working-apps) section of this `readme.md`
+    - [How to Add Travis CI Badges to a README](https://docs.travis-ci.com/user/status-images/)
+    - [How to format images and links using Markdown](https://guides.github.com/features/mastering-markdown/#examples)
+
+7.  [Submit a Pull Request](https://help.github.com/articles/creating-a-pull-request/) to the master branch of [m38io/todomvc](https://github.com/m38io/todomvc)
 
 # Development Environment
 
@@ -51,13 +57,11 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
 5. Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
 # Travis CI
-
+1.  [Setup a Travis CI account](https://docs.travis-ci.com/user/getting-started/) _(skip this step if you already have one)_
 1.  Log in to [Travis CI](https://travis-ci.org)
-2.  Flick on Build for the repo you created in step (2)
+2.  [Flick] (https://travis-ci.org/getting_started) on Build for the repo you created in step (2)
 3.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
     
-
-
 
 # Working Apps!
 
