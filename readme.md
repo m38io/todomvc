@@ -26,7 +26,7 @@ Your mission should you choose to accept it:
 
 If you don't want to install tools like git and docker locally, and you don't want to worry about everything working consistently on your local machine and out on GitHub and Travis CI, you should work on this project using [Vagrant](https://www.vagrantup.com/downloads.html) or other Docker/Docker compose runtime environment.
 
-Here is how to download and set up Vagrant 
+[Here is how to download and set up Vagrant](https://www.vagrantup.com/docs/installation/)
 
 Note: The Vagrant box provided has a pre-configured
 Docker/Docker compose environment and is the supported model. This is to ensure a consistent development
@@ -58,16 +58,16 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
 
 # Travis CI
 1.  [Setup a Travis CI account](https://docs.travis-ci.com/user/getting-started/) _(skip this step if you already have one)_
-1.  Log in to [Travis CI](https://travis-ci.org)
-2.  [Flick] (https://travis-ci.org/getting_started) on Build for the repo you created in step (2)
-3.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
+2.  Log in to [Travis CI](https://travis-ci.org)
+3.  [Flick] (https://travis-ci.org/getting_started) on Build for the repo you created in step (2)
+4.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
     - *IMPORTANT* You don't need to add all the Node versions shown in the example for your build. Just add a few of the latest ones.
     - For extra credit, you can change the build to use Docker [Ruby Example](https://docs.travis-ci.com/user/docker/). This is fairly advanced, but the hint is that this will be the `before_install` entry
         
-    ```yaml
-    before_install:
-        - docker build -t m38io/todomvc .
-    ```
+        ```yaml
+        before_install:
+            - docker build -t m38io/todomvc .
+        ```
     and that the `script` entry will be a `docker run` command 
     
 
