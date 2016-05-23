@@ -5,6 +5,8 @@ services:
 
 before_install:
   - docker build -t m38io/todomvc .
+
+script:
   - docker run --rm --entrypoint npm m38io/todomvc "test"
 
 notifications:
