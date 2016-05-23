@@ -4,9 +4,9 @@
 
 Your mission should you choose to accept it:
 
-1.  Set up your [Development Environment][Development Environment]
+1.  Set up your [Development Environment](#development-environment)
 2.  [Fork](https://help.github.com/articles/fork-a-repo/) this repository
-3.  [Run the application locally][Running Locally]
+3.  [Run the application locally](#running-locally)
 4.  Set Up Travis CI
     1.  Log in to [Travis CI](https://travis-ci.org)
     2.  Flick on Build for the repo you created in step (2)
