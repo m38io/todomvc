@@ -12,7 +12,7 @@ Your mission should you choose to accept it:
     2.  Flick on Build for the repo you created in step (2)
     3.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
 5.  [Set up a GitHub Page](https://help.github.com/categories/github-pages-basics/) for your repository
-6.  Add a link to your GitHub Page from step (5) to the [Working Apps!][] section of this `readme.md`
+6.  Add a link to your GitHub Page from step (5) to the [Working Apps!](#working-apps) section of this `readme.md`
 7.  [Submit a Pull Request](https://help.github.com/articles/creating-a-pull-request/) to [m38io/todomvc](https://github.com/m38io/todomvc)
 
 
