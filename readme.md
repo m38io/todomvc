@@ -1,25 +1,22 @@
 [![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc)
 
-# React TodoMVC Example
+# Homework
 
-> React is a JavaScript library for creating user interfaces. Its core principles are declarative code, efficiency, and flexibility. Simply specify what your component looks like and React will keep it up-to-date when the underlying data changes.
+Your mission should you choose to accept it:
 
-> _[React - facebook.github.io/react](http://facebook.github.io/react)_
+1.  Set up your [Development Environment][Development Environment]
+2.  [Fork](https://help.github.com/articles/fork-a-repo/) this repository
+3.  [Run the application locally][Running Locally]
+4.  Set Up Travis CI
+    1.  Log in to [Travis CI](https://travis-ci.org)
+    2.  Flick on Build for the repo you created in step (2)
+    3.  Create `.travis.yml` and push it to your fork (follow [Node instructions](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) for your `.travis.yml`)
+5.  [Set up a GitHub Page](https://help.github.com/categories/github-pages-basics/) for your repository
+6.  Add a link to your GitHub Page from step (5) to the [Working Apps!][] section of this `readme.md`
+7.  [Submit a Pull Request](https://help.github.com/articles/creating-a-pull-request/) to [m38io/todomvc](https://github.com/m38io/todomvc)
 
 
-## Running the App
-
-### Dependencies
-
-* [Vagrant](https://www.vagrantup.com/downloads.html) or other Docker/Docker compose runtime environment.
-
-    Note: The Vagrant box provided has a pre-configured
-    Docker/Docker compose environment and is the supported model. This is to ensure a consistent development
-    environment by keeping the host OS and docker versions identical across all contributors machines. The
-    application should be able to be run natively on docker/docker-compose but be aware that you are on your
-    own if you experience problems!`
-
-### Steps for running the application
+## Running Locally
 
 1. Fork this Repository
 
@@ -35,35 +32,19 @@
 
 3. Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
+# Development Environment
+
+TODO: Evgeny to finish
+
+* [Vagrant](https://www.vagrantup.com/downloads.html) or other Docker/Docker compose runtime environment.
+
+    Note: The Vagrant box provided has a pre-configured
+    Docker/Docker compose environment and is the supported model. This is to ensure a consistent development
+    environment by keeping the host OS and docker versions identical across all contributors machines. The
+    application should be able to be run natively on docker/docker-compose but be aware that you are on your
+    own if you experience problems!`
 
 
-## Learning React
+# Working Apps!
 
-The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
-
-Here are some links you may find helpful:
-
-* [Documentation](http://facebook.github.io/react/docs/getting-started.html)
-* [API Reference](http://facebook.github.io/react/docs/reference.html)
-* [Blog](http://facebook.github.io/react/blog/)
-* [React on GitHub](https://github.com/facebook/react)
-* [Support](http://facebook.github.io/react/support.html)
-
-Articles and guides from the community:
-
-* [How is Facebook's React JavaScript library](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)
-* [React: Under the hood](http://www.quora.com/Pete-Hunt/Posts/React-Under-the-Hood)
-
-Get help from other React users:
-
-* [React on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-* [Discussion Forum](https://discuss.reactjs.org/)
-
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
-
-## Running
-
-The app is built with [JSX](http://facebook.github.io/react/docs/jsx-in-depth.html) and compiled at runtime for a lighter and more fun code reading experience. As stated in the link, JSX is not mandatory.
-
-To run the app, spin up an HTTP server (`node app`) and visit http://localhost:8080/.
+- [m38io/todomvc](http://m38io.github.io/)
