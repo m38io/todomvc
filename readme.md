@@ -54,7 +54,7 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
         docker build -t todomvc .
         docker run -ti --rm -p 8080:8080 todomvc
 
-5. Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
+* Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
 # Travis CI
 1.  [Setup a Travis CI account](https://docs.travis-ci.com/user/getting-started/) _(skip this step if you already have one)_
