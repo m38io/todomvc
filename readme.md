@@ -52,7 +52,7 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
         vagrant ssh
         cd /vagrant
         docker build -t todomvc .
-        docker run -ti --rm -p 8080:8080 todomvc
+        docker run -ti --rm -p 8887:8080 todomvc
 
 * Open your browser to [http://localhost:8888](http://localhost:8888) or [http://192.168.70.4:8080](http://192.168.70.4:8080)
 
