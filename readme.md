@@ -76,7 +76,8 @@ Then, perform this series of commands _(if you are not using Vagrant, replace th
 -  [https://github.com/m38io/todomvc](https://github.com/m38io/todomvc) by [m38io](https://m38io.github.io) [![Build Status](https://travis-ci.org/m38io/todomvc.svg?branch=master)](https://travis-ci.org/m38io/todomvc)
 -  [https://github.com/johnsonwebapps/todomvc](https://github.com/johnsonwebapps/todomvc) by [johnsonwebapps](https://johnsonwebapps.github.io) [![Build Status](https://travis-ci.org/johnsonwebapps/todomvc.svg?branch=master)](https://travis-ci.org/johnsonwebapps/todomvc)
 -  [https://github.com/bruceledbettermm/todomvc](https://github.com/bruceledbettermm/todomvc) by [bruceledbettermm](https://github.com/bruceledbettermm) [![Build Status](https://travis-ci.org/bruceledbettermm/todomvc.svg?branch=master)](https://travis-ci.org/bruceledbettermm/todomvc)
--  [https://github.com/jentete/todomvc](https://github.com/jentete/todomvc) by [jentete](https://jentete.github.io/todomvc/) [![Build Status](https://travis-ci.org/yfengmm/todomvc.svg?branch=master)](https://travis-ci.org/yfengmm/todomvc)
+-  [https://github.com/jentete/todomvc](https://github.com/jentete/todomvc) by [jentete](https://jentete.github.io/todomvc/) [![Build Status](https://travis-ci.org/jentete/todomvc.svg?branch=master)](https://travis-ci.org/jentete/todomvc)
+-  [https://github.com/yfengmm/todomvc](https://github.com/yfengmm/todomvc) by [yfengmm](https://yfengmm.github.io/todomvc/) [![Build Status](https://travis-ci.org/yfengmm/todomvc.svg?branch=master)](https://travis-ci.org/yfengmm/todomvc)
 
 
 
